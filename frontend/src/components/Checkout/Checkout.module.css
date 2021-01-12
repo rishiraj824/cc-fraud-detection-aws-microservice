@@ -1,0 +1,28 @@
+.center {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+:global(.ant-row).mt1 {
+    margin-top: 1em;
+}
+
+.col {
+    padding: 1em;
+}
+
+:global(.ant-card).mb1 {
+    margin-bottom: 1em;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-item {
+    padding: 0.5em;
+    display: flex;
+    justify-content: center;
+}

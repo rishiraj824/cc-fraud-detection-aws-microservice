@@ -1,0 +1,35 @@
+.white {
+    color: white;
+}
+
+:global(.ant-layout-header).header {
+    height: 48px;
+    line-height: 48px;
+}
+
+:global(.ant-layout).layout {
+    background: unset;
+    position: relative;
+    min-height: 100vh;
+}
+
+:global(.ant-layout-footer).footer {
+    padding:  0 3em;
+    margin-top: 2em;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.content {
+    padding: 1.5em 0 0;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 70%;
+}
+
+.link {
+    margin: 0 0.3em;
+}

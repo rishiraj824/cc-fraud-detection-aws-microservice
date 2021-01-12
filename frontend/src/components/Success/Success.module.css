@@ -1,0 +1,6 @@
+.success {
+  color: green;
+  font-size: 1.3em;
+  flex-direction: column;
+  align-items: center;
+}
