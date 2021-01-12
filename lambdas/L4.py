@@ -20,7 +20,7 @@ def put_into_elasticsearch(tid, payload):
 
     service = "es"
     credentials = boto3.Session().get_credentials()
-    awsauth = AWS4Auth('AKIAUEE2AC6ZOJFBK7ND', 'lu1PETqS+5Opdjdg2C+e1GrG1VTjS4bXjkf/YbiH', region, service)
+    awsauth = AWS4Auth('<API_KEY>', '<SECRET-KEY>', region, service)
 
     es = Elasticsearch(
         hosts = [{'host': host, 'port': 443}],
